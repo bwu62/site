@@ -7,6 +7,7 @@ languageCode: en
 DefaultContentLanguage: en
 enableInlineShortcodes: yes
 footnoteReturnLinkContents: ^
+googleAnalytics: G-RYQM737XWN
 params:
   author: Bi Cheng Wu
   badge: orange
@@ -15,9 +16,10 @@ params:
     are a good here.</p>\r\n    "
   google_search: yes
   index_posts_num: 5
-  # notice: Hello, world. This is a notification.
+  notice: Hi! This site is currently under construction. Check back soon for more updates!
   notice_color: red
   quote: red
+  math: true
 menu:
   footer:
     - identifier: home

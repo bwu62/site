@@ -20,7 +20,30 @@
     
 
     
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQM737XWN"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+          gtag('config', 'G-RYQM737XWN');
+        </script>
+    
 
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            extensions: ["tex2jax.js"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: true
+            },
+            "HTML-CSS": { availableFonts: ["TeX"] }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
     
 
     <link rel="stylesheet" href="/layui/css/layui.css">
@@ -90,6 +113,26 @@ layui.use('element', function(){
 
 <main>
 
+
+<div id="erblog-notice" onclick="notice_close();"
+    class="layui-container-fluid layui-bg-red">
+    <div class="layui-row self-notice">
+        <div class="layui-col-xs12 layui-col-sm12 layui-col-md12 self-notice-text">
+            <span style="margin-left: 20px">
+                Hi! This site is currently under construction. Check back soon for more updates!
+                <i class="layui-icon layui-icon-close" style="vertical-align: -1px;margin-left: 20px"></i>   
+            </span>
+        </div>
+    </div>
+</div>
+
+<script>
+function notice_close() {
+    document.getElementById('erblog-notice').classList.add("layui-anim");
+    document.getElementById('erblog-notice').classList.add("layui-anim-fadeout");
+    
+}
+</script>
 
 
 
