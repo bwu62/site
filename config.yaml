@@ -1,0 +1,55 @@
+baseURL: ""
+title: Example Site
+theme: erblog
+paginate: 3
+languageCode: en
+DefaultContentLanguage: en
+enableInlineShortcodes: yes
+footnoteReturnLinkContents: ^
+params:
+  author: Bi Cheng Wu
+  badge: orange
+  bio: "\r\n    <p> This is BIO. You can write something here. </p>\r\n    <br />\r\n
+    \   <p>Also all html tags such as <a href=\"https://github.com/ertuil/erblog\">link</a>
+    are a good here.</p>\r\n    "
+  google_search: yes
+  index_posts_num: 5
+  # notice: Hello, world. This is a notification.
+  notice_color: red
+  quote: red
+menu:
+  footer:
+    - identifier: home
+      name: home
+      url: /
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 2
+  icon:
+    - name: envelope-o
+      url: mailto:username@mail.com
+      weight: 1
+    - name: github
+      url: https://github.com/username/
+      weight: 1
+    - name: twitter
+      url: https://twitter.com/username
+      weight: 1
+    - name: instagram
+      url: https://www.instagram.com/username/
+      weight: 1
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+
+ignoreErrors : ["error-remote-getjson"]
+
+ignoreFiles : ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
