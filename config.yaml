@@ -1,5 +1,6 @@
 baseURL: ""
-title: Example Site
+title: Test Site
+publishDir: docs
 theme: erblog
 paginate: 3
 languageCode: en
