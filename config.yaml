@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: https://thestatsgu.ru
 title: Test Site
 publishDir: docs
 theme: erblog
