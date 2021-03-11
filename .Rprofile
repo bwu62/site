@@ -12,6 +12,3 @@ options(
   # to disable knitting Rmd files on save, set this option to FALSE
   blogdown.knit.on_save = TRUE
 )
-
-# fix Hugo version
-options(blogdown.hugo.version = "0.78.1")
