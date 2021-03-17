@@ -1,5 +1,5 @@
 baseURL: https://thestatsgu.ru
-title: Test Site
+title: TheStatsGuru
 publishDir: docs
 theme: erblog
 paginate: 3
@@ -10,47 +10,61 @@ footnoteReturnLinkContents: ^
 googleAnalytics: G-RYQM737XWN
 params:
   author: Bi Cheng Wu
+  description: Aspiring Stats Guru
   badge: orange
-  bio: "\r\n    <p> This is BIO. You can write something here. </p>\r\n    <br />\r\n
-    \   <p>Also all html tags such as <a href=\"https://github.com/ertuil/erblog\">link</a>
-    are a good here.</p>\r\n    "
-  google_search: yes
+  bio_title: Bio
+  bio: "TODO: add bio"
+  google_search: no
   index_posts_num: 5
   notice: Hi! This site is currently under construction. Check back soon for more updates!
   notice_color: red
   quote: red
   math: true
 menu:
-  footer:
-    - identifier: home
-      name: home
-      url: /
-      weight: 1
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 2
-  icon:
-    - name: envelope-o
-      url: mailto:username@mail.com
-      weight: 1
-    - name: github
-      url: https://github.com/username/
-      weight: 1
-    - name: twitter
-      url: https://twitter.com/username
-      weight: 1
-    - name: instagram
-      url: https://www.instagram.com/username/
-      weight: 1
   main:
     - identifier: about
       name: About
       url: /about/
       weight: 10
+    - identifier: posts
+      name: Posts
+      url: /post/
+      weight: 10
+  # footer:
+  #   - identifier: home
+  #     name: home
+  #     url: /
+  #     weight: 1
+  #   - identifier: about
+  #     name: About
+  #     url: /about/
+  #     weight: 2
+  icon:
+    # - name: fas fa-phone
+    #   url: tel:15856943857
+    #   weight: 1
+    - name: fas fa-envelope
+      url: mailto:bichengwu@thestatsgu.ru
+      weight: 2
+    - name: fab fa-github
+      url: https://github.com/bwu62/
+      weight: 3
+    - name: fab fa-linkedin
+      url: https://www.linkedin.com/in/bwu62/
+      weight: 4
+    - name: fab fa-facebook
+      url: https://www.facebook.com/shadowfreud/
+      weight: 5
+    - name: fas fa-film
+      url: https://letterboxd.com/shadowfreud/
+      weight: 6
+    - name: fab fa-spotify
+      url: https://open.spotify.com/user/shadowfreud
+      weight: 7
+    - name: fas fa-couch
+      url: https://www.couchsurfing.com/people/bcwu
+      weight: 8
 taxonomies:
-  category: categories
-  series: series
   tag: tags
 
 ignoreErrors : ["error-remote-getjson"]
