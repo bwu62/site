@@ -61,9 +61,9 @@ menu:
     - name: fab fa-spotify
       url: https://open.spotify.com/user/shadowfreud
       weight: 7
-    - name: fas fa-couch
-      url: https://www.couchsurfing.com/people/bcwu
-      weight: 8
+    # - name: fas fa-couch
+    #   url: https://www.couchsurfing.com/people/bcwu
+    #   weight: 8
 taxonomies:
   tag: tags
 
