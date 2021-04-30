@@ -3,3 +3,5 @@
 
 if(!dir.exists("docs")) dir.create("docs")
 if(!file.exists("docs/CNAME")) cat("thestatsgu.ru",file="docs/CNAME")
+file.copy(from="../site-cv/docs/cv/", to="docs/",
+          recursive=T, overwrite=T)

@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bi Cheng Wu CV</title>
-    <link>http://thestatsgu.ru/cv/</link>
+    <link>https://thestatsgu.ru/cv/</link>
     <description>Recent content on Bi Cheng Wu CV</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://thestatsgu.ru/cv/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://thestatsgu.ru/cv/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
