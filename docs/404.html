@@ -30,19 +30,20 @@
 
     
     
+    
+    
     <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            extensions: ["tex2jax.js"],
-            jax: ["input/TeX", "output/HTML-CSS"],
-            tex2jax: {
-                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-                processEscapes: true
-            },
-            "HTML-CSS": { availableFonts: ["TeX"] }
-        });
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-mml-chtml.js" integrity="sha256-HGLuEfFcsUJGhvB8cQ8nr0gai9EucOOaIxFw7qxmd+w=" crossorigin="anonymous"></script>
+        
+    <script type="text/javascript"
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
     
 
     <link rel="stylesheet" href="/layui/css/layui.css">
@@ -73,7 +74,7 @@
 
     <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
         
-        <li class="layui-nav-item" id="nav_big"><a href="/">Home</a></li>-->
+        <li class="layui-nav-item" id="nav_big"><a href="/cv/">CV</a></li>-->
         
 
         
@@ -91,7 +92,7 @@
             </a>
 
             <dl class="layui-nav-child">
-                <dd><a href="/">Home</a></dd>
+                <dd><a href="/cv/">CV</a></dd>
                 
 
                 
