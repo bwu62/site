@@ -6,7 +6,29 @@
     <description>Recent content on TheStatsGuru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://thestatsgu.ru/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thestatsgu.ru/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New site is live!</title>
+      <link>https://thestatsgu.ru/post/new-site/</link>
+      <pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thestatsgu.ru/post/new-site/</guid>
+      <description>I&amp;rsquo;ve finally finished most of the customizations I want for my new site!
+The template is based off the Erblog Hugo template, though (of course) with a lot of under the hood modifications.
+I also finalized my CV which was made using the Orbit theme.
+For future reference (for both you and me), here&amp;rsquo;s a Markdown demo showing how various elements are rendered.
+Over the next few weeks, I plan to post various projects/demos relating to statistics on this page.</description>
+    </item>
+    
+    <item>
+      <title>Markdown Demo</title>
+      <link>https://thestatsgu.ru/post/markdown-demo/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://thestatsgu.ru/post/markdown-demo/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://thestatsgu.ru/about/</link>
@@ -14,15 +36,6 @@
       
       <guid>https://thestatsgu.ru/about/</guid>
       <description>Coming soon!</description>
-    </item>
-    
-    <item>
-      <title>Markdown Demo</title>
-      <link>https://thestatsgu.ru/post/markdown-demo/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://thestatsgu.ru/post/markdown-demo/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
   </channel>

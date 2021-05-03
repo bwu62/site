@@ -25,7 +25,7 @@
         </div>
         <div class="layui-col-xs12 layui-col-sm8 layui-col-md8 about_right">
             <h1>{{ .Site.Params.Bio_Title | default "Bio"}}</h1>
-            <h2>{{ safeHTML .Site.Params.Bio }}</h2>
+            <h2 class="bio">{{ safeHTML .Site.Params.Bio }}</h2>
         </div>
     </div>
 </div>
@@ -37,10 +37,11 @@
                 <h1> Highlighted Posts </h1>
                 {{ with (.Site.GetPage "section" "post")  }}
                     {{$index_posts_num := $.Site.Params.index_posts_num | default 8}}
-                    {{range first $index_posts_num .Pages.ByWeight}}
+                    {{range first $index_posts_num (where .Pages.ByWeight ".Params.hidden" "!=" "true" ) }}
                         {{ partial "article" .}}
                     {{end}}
                 {{ end }}
+            <h4>See <a href="post/" style="text-decoration:underline;">posts</a> for more.</h4>
             </div>
 
             <div class="layui-col-md4 layui-col-sm4 layui-col-xs12">

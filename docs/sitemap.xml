@@ -2,31 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://thestatsgu.ru/about/</loc>
-    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thestatsgu.ru/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thestatsgu.ru/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thestatsgu.ru/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thestatsgu.ru/post/markdown-demo/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://thestatsgu.ru/post/new-site/</loc>
+    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thestatsgu.ru/post/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thestatsgu.ru/tags/site/</loc>
+    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thestatsgu.ru/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://thestatsgu.ru/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://thestatsgu.ru/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thestatsgu.ru/post/markdown-demo/</loc>
+    <lastmod>2021-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://thestatsgu.ru/about/</loc>
+    <lastmod>2021-03-31T00:00:00+00:00</lastmod>
   </url>
 </urlset>

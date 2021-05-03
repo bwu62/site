@@ -16,16 +16,18 @@ params:
   bio: >-
     <p>Welcome to my new site!</p> <br/>
     
-    <p>Check out my 
-    <a href="cv/" style="text-decoration:underline;">CV</a>,
-    browse some recent
-    <a href="post/" style="text-decoration:underline;">posts</a>, 
+    <p>Check out my <a href="cv/">CV</a>,
+    browse some recent <a href="post/">posts</a>, 
     or click through my socials links below.</p> <br/>
     
-    <p>Feel free to email me with any inquiries</p>
+    <p>This page will be updated frequently, 
+    so check back often for updates!</p><br/>
+    
+    <p>Feel free to <a href="mailto:bichengwu@thestatsgu.ru">email me</a>
+    with any inquiries</p><br/>
   google_search: no
   index_posts_num: 5
-  notice: Hi! This site is currently under construction. Check back soon for more updates!
+  #notice: Hi! This site is currently under construction. Check back soon for more updates!
   notice_color: red
   quote: red
   math: true

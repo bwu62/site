@@ -6,6 +6,11 @@ body {
 }
 
 /* index */
+
+.bio a{
+    text-decoration:underline;
+}
+
 .about {
     margin-top: 10px;
     width: 100%;

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on TheStatsGuru</title>
-    <link>https://thestatsgu.ru/post/</link>
-    <description>Recent content in Posts on TheStatsGuru</description>
+    <title>site on TheStatsGuru</title>
+    <link>https://thestatsgu.ru/tags/site/</link>
+    <description>Recent content in site on TheStatsGuru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thestatsgu.ru/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://thestatsgu.ru/tags/site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New site is live!</title>
       <link>https://thestatsgu.ru/post/new-site/</link>
@@ -18,15 +18,6 @@ The template is based off the Erblog Hugo template, though (of course) with a lo
 I also finalized my CV which was made using the Orbit theme.
 For future reference (for both you and me), here&amp;rsquo;s a Markdown demo showing how various elements are rendered.
 Over the next few weeks, I plan to post various projects/demos relating to statistics on this page.</description>
-    </item>
-    
-    <item>
-      <title>Markdown Demo</title>
-      <link>https://thestatsgu.ru/post/markdown-demo/</link>
-      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://thestatsgu.ru/post/markdown-demo/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
     
   </channel>
