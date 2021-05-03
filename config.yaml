@@ -10,10 +10,19 @@ footnoteReturnLinkContents: ^
 googleAnalytics: G-RYQM737XWN
 params:
   author: Bi Cheng Wu
-  description: An Aspiring Stats Guru
+  description: Aspiring Stats Guru
   badge: orange
   bio_title: Bio
-  bio: "TODO: add bio"
+  bio: >-
+    <p>Welcome to my new site!</p> <br/>
+    
+    <p>Check out my 
+    <a href="cv/" style="text-decoration:underline;">CV</a>,
+    browse some recent
+    <a href="post/" style="text-decoration:underline;">posts</a>, 
+    or click through my socials links below.</p> <br/>
+    
+    <p>Feel free to email me with any inquiries</p>
   google_search: no
   index_posts_num: 5
   notice: Hi! This site is currently under construction. Check back soon for more updates!
@@ -22,10 +31,10 @@ params:
   math: true
 menu:
   main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 10
+    # - identifier: about
+    #   name: About
+    #   url: /about/
+    #   weight: 10
     - identifier: posts
       name: Posts
       url: /post/
