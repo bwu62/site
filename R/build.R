@@ -3,5 +3,7 @@
 
 if(!dir.exists("docs")) dir.create("docs")
 if(!file.exists("docs/CNAME")) cat("thestatsgu.ru",file="docs/CNAME")
-file.copy(from="../site-cv/docs/cv/", to="docs/",
-          recursive=T, overwrite=T)
+if(file.info("../site-cv/docs/cv/index.html")$mtime > file.info("docs/cv/index.html")$mtime){
+  file.copy(from="../site-cv/docs/cv/", to="docs/",
+            recursive=T, overwrite=T)
+}
